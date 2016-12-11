@@ -9,7 +9,7 @@ function build(file, watch, dest) {
     var props = {
         entries: [file],
         extensions: ['.js'],
-        debug: true,
+        debug: false,
         fast: true,
         'insert-globals': true,
         fullPaths: true,
